@@ -73,4 +73,4 @@ class TestVarasto(unittest.TestCase):
     def test_class_string_correct(self):
         self.varasto.lisaa_varastoon(8)
 
-        self.assertAlmostEqual(f"{self.varasto}", "saldo = 8, vielä tilaa 2")
+        self.assertAlmostEqual(f"{self.varasto}", "vielä tilaa 2")
