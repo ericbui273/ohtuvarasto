@@ -9,6 +9,10 @@ def main():
     print(f"Mehuvarasto: {mehua}")
     print(f"Olutvarasto: {olutta}")
 
+    print("Olut getterit:")
+    print(f"saldo = {olutta.saldo}")
+    print(f"tilavuus = {olutta.tilavuus}")
+    print(f"paljonko_mahtuu = {olutta.paljonko_mahtuu()}")
 
     print("Mehu setterit:")
     print("Lisätään 50.7")
@@ -47,7 +51,7 @@ def main():
     print("mehua.otaVarastosta(-32.9)")
     saatiin = mehua.ota_varastosta(-32.9)
     print(f"saatiin {saatiin}")
-    print(f"Mehuvarasto: {mehua}")
+    print
 
 
 if __name__ == "__main__":
